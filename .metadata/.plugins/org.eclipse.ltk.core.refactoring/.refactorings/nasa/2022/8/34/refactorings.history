@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void extracted(Arquivo gravar, List&lt;Nasa&gt; nasa)&apos; from &apos;api.com.json.Teste.main(...)&apos; to &apos;api.com.json.Teste&apos;&#x0D;&#x0A;- Original project: &apos;nasa&apos;&#x0D;&#x0A;- Method name: &apos;extracted&apos;&#x0D;&#x0A;- Destination type: &apos;api.com.json.Teste&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;extracted&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;api.com.json{Teste.java" name="extracted" replace="false" selection="362 136" stamp="1660568651776" version="1.0" visibility="2"/>
+</session>

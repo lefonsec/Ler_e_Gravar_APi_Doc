@@ -1,0 +1,16 @@
+package api.com.json;
+
+public class Teste {
+
+	public static void main(String[] args) throws Exception {
+		
+//		   System.out.print("Informe seu CEP: ");
+//		   String cep = new Scanner(System.in).nextLine();
+	        Nasa nasa = ServicoDeCep.buscarNasa();
+
+	        System.out.println("url: " + nasa.getUrl());
+	        System.out.println("title: " + nasa.getTitle());
+	        ;
+	}
+
+}

@@ -1,0 +1,10 @@
+package api.com.json;
+
+public class Nasa {
+
+	private String url;
+	private	String title;
+	
+
+	
+}

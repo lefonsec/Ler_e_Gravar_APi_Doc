@@ -1,0 +1,29 @@
+package api.com.json;
+
+public class Nasa {
+
+	private Layout mediaType;
+	private Layout title;
+
+	public Layout getType() {
+		return mediaType;
+	}
+
+	public void setType(Layout url) {
+		this.mediaType = url;
+	}
+
+	public Layout getTitle() {
+		return title;
+	}
+
+	public void setTitle(Layout title) {
+		this.title = title;
+	}
+
+	@Override
+	public String toString() {
+		return "Nasa [url=" + mediaType + ", title=" + title + "]";
+	}
+
+}

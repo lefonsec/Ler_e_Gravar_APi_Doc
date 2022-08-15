@@ -1,0 +1,21 @@
+package api.com.json;
+
+import java.util.List;
+
+public class Teste {
+
+	public static void main(String[] args) throws Exception {
+
+//		   System.out.print("Informe seu CEP: ");
+//		   String cep = new Scanner(System.in).nextLine();
+		List<Nasa> nasa = ServicoNasa.buscarNasa();
+		for(Nasa lista : nasa) {
+			System.out.print("url: " + lista.getUrl());
+			System.out.print("title: " + lista.getTitle());
+		}
+
+		
+
+	}
+
+}
